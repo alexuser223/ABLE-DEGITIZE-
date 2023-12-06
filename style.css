@@ -36,6 +36,7 @@ width:100vw;
     justify-content: space-between ;
     margin: 5px;
     align-items: center;
+    background-color: rgb(12 93 142);
 }
 .msgg{
     display: flex;
@@ -48,6 +49,7 @@ width:100vw;
     margin: 17px;
     align-items: center;
     cursor: pointer;
+    color: white;
 
 }
 .options:hover{
@@ -189,6 +191,7 @@ section{
 .topic-title h2{
    margin-top: 20px;
    font-weight: 400;
+   font-size: 30px; background-color: white; padding: 10px;font-weight: 600; border-radius: 5px;margin: 2px;
 }
 .topic-subtitle{
     display: flex;
@@ -421,7 +424,7 @@ li{
   .Online-courses{
     height: 350px; width: 30%;background-color: rgb(255, 255, 255); 
     margin: 10px;
-    box-shadow: 0px 0px 10px rgb(98 202 158);
+    box-shadow: 0px 0px 10px rgb(12 93 142);
     border-radius: 5px;
 }
 
@@ -440,7 +443,12 @@ li{
 
 .c-button{
     height: 25%; display: flex;align-items: center;justify-content: center;
+    
 }
+
+/* .c-button button{
+    visibility: hidden;
+} */
 
 .topic-para-img p{
     margin: 5px;
@@ -472,7 +480,35 @@ li{
 }
 
 
+.para h1{
+    color:  rgb(12 93 142);
+}
+
+
+.topic-title h2{
+    color:rgb(12 93 142);
+}
+
+.Course h2{
+    color:orangered
+}
 @media only screen and (max-width: 600px) {
+
+    .options{
+        color: #0c5d8e;
+    }
+
+    .h3 h1{
+        font-size: 25px;
+    }
+
+    .topic-title h2{
+        font-size: 17px;
+    }
+
+    .promo-area{
+        margin-top: 40px;
+    }
     body {
       /* font-size: 12px; */
     }
@@ -556,7 +592,7 @@ li{
   }
   .heading{
     height: 50px;
-    background-color: rgb(230, 125, 64);
+    background-color:rgb(12 93 142);
     position: fixed;
     top:0;
   }
